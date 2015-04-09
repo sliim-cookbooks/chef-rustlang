@@ -22,6 +22,14 @@ platforms:
     driver:
       box: ubuntu-14.04
       box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-14.04_chef-provisionerless.box
+  - name: centos-5.11
+    driver:
+      box: centos-5.11
+      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-5.11_chef-provisionerless.box
+  - name: centos-5.11-i386
+    driver:
+      box: centos-5.11-i386
+      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-5.11-i386_chef-provisionerless.box
 
 suites:
   - name: nightly

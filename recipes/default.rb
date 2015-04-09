@@ -36,3 +36,8 @@ execute "chef installer" do
   cwd rust_installation_path
 end
 
+file '/etc/ld.so.conf.d/usr_local.conf' do
+  content '/usr/local/lib'
+end
+
+execute 'ldconfig'
