@@ -2,7 +2,7 @@
 # Cookbook Name:: rustlang
 # Recipe:: default
 #
-# Copyright (c) 2014 Matthew Valentine-House, All Rights Reserved.
+# Copyright (c) 2015 Matthew Valentine-House
 #
 
 # Rust-lang version specific variables
