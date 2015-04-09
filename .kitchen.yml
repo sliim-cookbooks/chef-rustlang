@@ -8,12 +8,12 @@ provisioner:
 platforms:
   - name: ubuntu-12.04
     driver:
-      box: ubuntu-14.04-i386
-      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-14.04-i386_chef-provisionerless.box
+      box: ubuntu-12.04
+      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.04-i386_chef-provisionerless.box
   - name: ubuntu-12.04-i386
     driver:
-      box: ubuntu-14.04-i386
-      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-14.04-i386_chef-provisionerless.box
+      box: ubuntu-12.04-i386
+      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.04-i386_chef-provisionerless.box
   - name: ubuntu-14.04-i386
     driver:
       box: ubuntu-14.04-i386
