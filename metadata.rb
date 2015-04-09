@@ -4,5 +4,8 @@ maintainer_email 'matt@eightbitraptor.com'
 license          'GPL v3'
 description      'Installs/Configures rustlang'
 long_description 'Installs/Configures rustlang'
-version          '0.1.0'
+version          '0.1.1'
+
+source_url 'https://github.com/eightbitraptor/chef-rustlang'
+issues_url 'https://github.com/eightbitraptor/chef-rustlang/issues'
 
