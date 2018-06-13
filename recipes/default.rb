@@ -9,6 +9,7 @@
 #
 architecture = node['kernel']['machine']
 version      = node['rustlang']['version']
+checksum     = node['rustlang']['checksum']
 
 rust_canonical_basename = "rust-#{version}-#{architecture}-unknown-linux-gnu"
 
@@ -23,6 +24,7 @@ rust_installation_path = "#{node['rustlang']['installation_prefix']}/#{rust_cano
 remote_file cached_download_object do
   source download_file
   use_last_modified false
+  checksum checksum unless checksum.empty?
   not_if "rustc --version|grep #{version}"
   notifies :run, 'execute[unpack rust]', :immediately
 end
